@@ -22,6 +22,8 @@
   "author": "Yanis Ahmed",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
     "eslint": "^8.49.0",
@@ -31,7 +33,8 @@
     "prettier": "^3.0.3",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2",
-    "winston": "^3.10.0"
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
   },
   "dependencies": {
     "cors": "^2.8.5",
